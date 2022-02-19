@@ -11,7 +11,7 @@ var minutes=0;
      console.log('start the watch');
     
      
-      interval=setInterval(function(){                            // named setinterval so that seconds can use clearinterval  to stop it 
+      interval=setInterval(function(){                            // named setinterval so that i can use clearinterval  to stop it 
             if(seconds<60){
                     seconds++;                            // increment seconds 
                   if(seconds==60){
